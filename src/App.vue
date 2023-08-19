@@ -1,26 +1,31 @@
 <script>
 import AppSidebar from './components/AppSidebar.vue';
-import AppChatSection from '';
+import AppChatSection from './components/AppChatSection.vue';
 
 export default {
-  components: { AppSidebar },
+  components: { AppSidebar, AppChatSection },
 }
 </script>
 
 <template>
-  <div class="h-100 d-flex align-items-center justify-content-center">
+  <!--Main content:-->
+  <main class="h-100 d-flex align-items-center justify-content-center">
 
-    <!--Main content:-->
-    <main class="container">
+    <div class="container shadow bg-white">
 
-      <!-- SIDEBAR SECTION -->
-      <AppSidebar />
+      <div class="row h-100">
 
-      <!-- CHAT SECTION -->
+        <!-- SIDEBAR SECTION -->
+        <AppSidebar />
 
-    </main>
+        <!-- CHAT SECTION -->
+        <AppChatSection />
 
-  </div>
+      </div>
+
+    </div>
+
+  </main>
 </template>
 
 <style lang="scss">
