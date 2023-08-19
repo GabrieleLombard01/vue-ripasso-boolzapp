@@ -38,6 +38,18 @@ body{
 .bg-light-gray{
     background-color: var(--light-gray);
 }
+.bg-light-blue{
+    background-color: var(--light-blue);
+}
+.bg-chat-image{
+    background-image: url('../img/mine.jpg');
+}
 .bg-chat-color{
     background-color: var(--bg-chat);
+}
+
+/* chat section */
+#chat header,
+#chat footer {
+    height: 70px;
 }
