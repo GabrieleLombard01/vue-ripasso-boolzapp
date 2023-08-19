@@ -17,7 +17,6 @@ export default {
         <!-- Notifications -->
         <AppNotifications />
 
-
         <!-- Search contacts -->
         <AppSearch />
 

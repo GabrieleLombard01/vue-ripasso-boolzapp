@@ -4,7 +4,19 @@
 
 <template>
     <!-- Notifications -->
-    <div id="notifications" class="bg-light-blue flex-shrink-0">Notifications</div>
+    <div id="notifications" class="bg-light-blue flex-shrink-0">
+        <div class="media">
+            <div class="media-icon">
+                <i class="fa-solid fa-bell-slash"></i>
+            </div>
+            <div class="media-text">
+                <div>Ricevi notifiche di nuovi messaggi</div>
+                <div class="fs-6 text-decoration-underline" role="button">
+                    <small>Attiva le notifiche desktop</small>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <style>

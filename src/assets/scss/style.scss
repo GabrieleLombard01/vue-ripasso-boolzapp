@@ -59,6 +59,9 @@ body{
 #notifications{
     height: 80px;
 }
+#notifications .fa-bell-slash{
+    color: #8edafc;
+}
 
 /* Media */
 .media {
@@ -80,4 +83,16 @@ body{
 .media .media-text{
     margin-left: 0.5rem;
     margin-bottom: 0;
+}
+
+.media .media-icon{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
 }
