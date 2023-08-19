@@ -1,8 +1,12 @@
 <script setup>
 </script>
 
-<template></template>
+<template>
+  <div class="container">
+
+  </div>
+</template>
 
 <style lang="scss">
-@use '../src/assets/scss/style.scss'
+@use './assets/scss/style.scss'
 </style>
