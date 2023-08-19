@@ -50,6 +50,12 @@ body{
 
 /* chat section */
 #chat header,
-#chat footer {
+#chat footer,
+#user-section {
     height: 70px;
+}
+
+/* Notifications */
+#notifications{
+    height: 80px;
 }
