@@ -4,7 +4,6 @@
 
 <template>
     <section id="sidebar" class="col-4 p-0 h-100 bg-light-gray">
-        <h1>sidebar section</h1>
     </section>
 </template>
 

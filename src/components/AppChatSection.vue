@@ -3,8 +3,7 @@
 </script>
 
 <template>
-    <section id="chat" class="col-8 p-0 h-100 bg-chat-color">
-        <h1>chat section</h1>
+    <section id="chat" class=" col-8 p-0 h-100 bg-chat-color">
     </section>
 </template>
 
