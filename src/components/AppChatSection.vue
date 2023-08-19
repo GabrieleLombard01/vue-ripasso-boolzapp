@@ -1,18 +1,23 @@
 <script >
-	//LOGIC HERE...
+import AppChatHeader from './ChatContents/AppChatHeader.vue';
+import AppChatMessages from './ChatContents/AppChatMessages.vue';
+import AppChatFooter from './ChatContents/AppChatFooter.vue';
+export default {
+    components: { AppChatHeader, AppChatMessages, AppChatFooter },
+}
 </script>
 
 <template>
     <section id="chat" class="col-8 p-0 h-100 bg-chat-color d-flex flex-column">
 
         <!-- Chat header -->
-        <header class="bg-light-gray flex-shrink-0">header</header>
+        <AppChatHeader />
 
         <!-- Chat messages -->
-        <section class="flex-grow-1 overflow-auto bg-chat-image">messages</section>
+        <AppChatMessages />
 
         <!-- Chat footer -->
-        <footer class="flex-shrink-0">Footer</footer>
+        <AppChatFooter />
 
     </section>
 </template>

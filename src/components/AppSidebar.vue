@@ -1,33 +1,28 @@
 <script >
-	//LOGIC HERE...
+import AppUserSection from './SidebarContents/AppUserSection.vue';
+import AppNotifications from './SidebarContents/AppNotifications.vue';
+import AppSearch from './SidebarContents/AppSearch.vue';
+import AppContacts from './SidebarContents/AppContacts.vue';
+export default {
+    components: { AppUserSection, AppNotifications, AppSearch, AppContacts },
+}
 </script>
 
 <template>
     <section id="sidebar" class="col-4 p-0 h-100 bg-light-gray">
 
         <!-- User section -->
-        <div id="user-section" class="flex-shrink-0 d-flex justify-content-between">
-            <div class="media">
-                <figure>
-                    <img src="../assets/img/avatar_io.jpg" alt="Silvia Rivella">
-                </figure>
-                <div class="h6 media-text">Silvia Rivella</div>
-            </div>
-            <div class="w-25 text-muted d-flex justify-content-around align-items-center">
-                <i class="fa-solid fa-circle-notch" role="button"></i>
-                <i class="fa-solid fa-comment-alt" role="button"></i>
-                <i class="fa-solid fa-ellipsis-v" role="button"></i>
-            </div>
-        </div>
+        <AppUserSection />
 
         <!-- Notifications -->
-        <div id="notifications" class="bg-light-blue flex-shrink-0">Notifications</div>
+        <AppNotifications />
+
 
         <!-- Search contacts -->
-        <div id="search-contacts" class="p-2 flex-shrink-0">Search contacts</div>
+        <AppSearch />
 
         <!-- Contacts list -->
-        <div id="contacts-list" class="flex-grow-1 bg-white overflow-auto">Contacts list</div>
+        <AppContacts />
 
     </section>
 </template>
