@@ -25,3 +25,19 @@ body{
     background-image: linear-gradient(var(--green) 15%, var(--bg-gray) 15%);
 }
 /*Utilties*/
+
+/*Main section*/
+main .container{
+    height: 90%;
+}
+#chat{
+    background-color: var(--bg-chat);
+}
+
+/* --Background utils-- */
+.bg-light-gray{
+    background-color: var(--light-gray);
+}
+.bg-chat-color{
+    background-color: var(--bg-chat);
+}
