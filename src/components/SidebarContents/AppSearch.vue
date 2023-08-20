@@ -11,13 +11,22 @@
 </template>
 
 <style>
-/* --- STYLE HERE... --- */
+/* Search section */
+#search-contacts {
+    height: 50px;
+    position: relative;
+}
 
-/*CSS reset*/
+#search-contacts .fa-search {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
 
-/*Pseudo-classes*/
-
-/*Generics*/
-
-/*Utilties*/
+#search-contacts input {
+    border: 0;
+    height: 100%;
+    padding-left: 50px;
+}
 </style>
