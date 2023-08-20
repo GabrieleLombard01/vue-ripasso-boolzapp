@@ -18,14 +18,3 @@
     </div>
 </template>
 
-<style>
-/* --- STYLE HERE... --- */
-
-/*CSS reset*/
-
-/*Pseudo-classes*/
-
-/*Generics*/
-
-/*Utilties*/
-</style>
