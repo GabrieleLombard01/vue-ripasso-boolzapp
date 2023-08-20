@@ -97,6 +97,12 @@ body{
     border-radius: 50%;
 }
 
+li.media:hover {
+    cursor: pointer;
+    background-color: var(--light-gray);
+
+}
+
 /* Search section */
 #search-contacts{
     height: 50px;
